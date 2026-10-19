@@ -32,8 +32,7 @@
   <text x="36" y="183" font-size="74" font-weight="700" letter-spacing="-3" fill="#f3eee5">SEVESH S S<tspan fill="#ffb078">.</tspan></text>
   <text x="40" y="229" font-size="25" fill="#c2d5cd">Building AI you can use.</text>
   <rect x="28" y="270" width="580" height="48" rx="5" fill="#080f11" stroke="#25413b"/>
-  <g clip-path="url(#typing)"><text class="mono" x="40" y="301" font-size="18" fill="#a8dcc4">&gt; learn. experiment. build. repeat.</text></g>
-  <path class="cursor" d="M568 285v21" stroke="#ffb078" stroke-width="8"/>
+  <g clip-path="url(#typing)"><text class="mono" x="40" y="301" font-size="18" fill="#a8dcc4">&gt; learn. experiment. build. repeat.<tspan class="cursor" fill="#ffb078">_</tspan></text></g>
   <g fill="none" stroke="#a8dcc4">
     <circle cx="810" cy="155" r="91" opacity=".12"/>
     <circle class="orbit" cx="810" cy="155" r="72" stroke-dasharray="9 11" opacity=".3"/>
