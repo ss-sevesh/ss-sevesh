@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 170" role="img" aria-label="ReelToReal: turn videos into a searchable knowledge vault">
+<style>text{font-family:'Segoe UI',Arial,sans-serif}.signal{stroke-dasharray:5 12;animation:flow 3s linear infinite}.node{animation:glow 4s ease-in-out infinite}@keyframes flow{to{stroke-dashoffset:-68}}@keyframes glow{50%{opacity:.4}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<rect width="1000" height="170" rx="12" fill="#0d1718"/><path d="M0 1H1000" stroke="#a8dcc4" stroke-width="2"/>
+<text x="36" y="43" fill="#a8dcc4" font-size="13" letter-spacing="3">03 / RETRIEVAL + KNOWLEDGE</text><text x="34" y="99" fill="#f3eee5" font-size="40" font-weight="700">ReelToReal</text><text x="36" y="138" fill="#a3bdb5" font-size="17">Saved videos → Grounded notes → Searchable knowledge</text>
+<g fill="none" stroke="#a8dcc4"><path d="M760 85L830 40L900 85L830 130ZM760 85H900M830 40V130" opacity=".2"/><path class="signal" d="M760 85L830 40L900 85L830 130ZM760 85H900M830 40V130"/><g class="node" fill="#a8dcc4"><circle cx="760" cy="85" r="8"/><circle cx="830" cy="40" r="8"/><circle cx="900" cy="85" r="8"/><circle cx="830" cy="130" r="8"/></g></g><circle cx="830" cy="85" r="12" fill="#ffb078"/>
+</svg>

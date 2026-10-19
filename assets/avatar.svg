@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-label="SS monogram">
+<rect width="1024" height="1024" fill="#0d1718"/>
+<circle cx="512" cy="512" r="392" fill="none" stroke="#29483e" stroke-width="3"/>
+<path d="M248 306H776" stroke="#a8dcc4" stroke-width="12"/>
+<text x="500" y="650" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="365" font-weight="700" letter-spacing="-22" fill="#f3eee5">SS</text>
+<circle cx="753" cy="672" r="23" fill="#ffb078"/>
+<path d="M248 738H776" stroke="#a8dcc4" stroke-width="12"/>
+</svg>

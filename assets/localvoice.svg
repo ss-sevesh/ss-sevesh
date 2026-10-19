@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 170" role="img" aria-label="Local Voice: listen, reason, speak">
+<style>text{font-family:'Segoe UI',Arial,sans-serif}.bar{transform-box:fill-box;transform-origin:center;animation:wave 1.6s ease-in-out infinite}.b{animation-delay:-.5s}.c{animation-delay:-1s}@keyframes wave{50%{transform:scaleY(.3)}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<rect width="1000" height="170" rx="12" fill="#0d1718"/><path d="M0 1H1000" stroke="#a8dcc4" stroke-width="2"/>
+<text x="36" y="43" fill="#a8dcc4" font-size="13" letter-spacing="3">01 / SPEECH SYSTEMS</text><text x="34" y="99" fill="#f3eee5" font-size="40" font-weight="700">Local Voice</text><text x="36" y="138" fill="#a3bdb5" font-size="17">English + Hindi · Local inference · Interruptible conversation</text>
+<g fill="#a8dcc4"><rect class="bar" x="760" y="65" width="12" height="40" rx="6"/><rect class="bar b" x="786" y="45" width="12" height="80" rx="6"/><rect class="bar c" x="812" y="30" width="12" height="110" rx="6"/><rect class="bar" x="838" y="45" width="12" height="80" rx="6"/><rect class="bar b" x="864" y="65" width="12" height="40" rx="6"/></g>
+</svg>

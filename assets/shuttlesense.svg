@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 170" role="img" aria-label="ShuttleSense: computer vision for badminton">
+<style>text{font-family:'Segoe UI',Arial,sans-serif}.ball{animation:rally 3s ease-in-out infinite}.trail{stroke-dasharray:5 10;animation:trail 3s linear infinite}@keyframes rally{50%{transform:translate(110px,-45px)}}@keyframes trail{to{stroke-dashoffset:-60}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<rect width="1000" height="170" rx="12" fill="#0d1718"/><path d="M0 1H1000" stroke="#ffb078" stroke-width="2"/>
+<text x="36" y="43" fill="#ffb078" font-size="13" letter-spacing="3">02 / COMPUTER VISION</text><text x="34" y="99" fill="#f3eee5" font-size="40" font-weight="700">ShuttleSense</text><text x="36" y="138" fill="#a3bdb5" font-size="17">Track the rally · Replay the moment · Understand the game</text>
+<g stroke="#54746a" fill="none"><rect x="735" y="35" width="190" height="100" rx="3"/><path d="M830 35V135M735 85H925M755 35V135M905 35V135"/><path class="trail" d="M760 110Q815 10 870 65" stroke="#ffb078"/></g><circle class="ball" cx="760" cy="110" r="7" fill="#ffb078"/>
+</svg>
