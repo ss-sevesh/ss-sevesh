@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" role="img" aria-labelledby="title desc">
+  <title id="title">Sevesh S S — building AI you can use</title>
+  <desc id="desc">A dark engineering notebook with a typing introduction and a softly moving network of connected model nodes.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#90a9a1" stroke-opacity=".07"/></pattern>
+    <clipPath id="typing"><rect class="reveal" x="40" y="271" width="550" height="40"/></clipPath>
+    <style>
+      text{font-family:'Segoe UI',Arial,sans-serif}
+      .mono{font-family:Consolas,'Courier New',monospace}
+      .reveal{animation:type 7s steps(30,end) infinite}
+      .cursor{animation:blink 1.2s steps(2,end) infinite}
+      .signal{stroke-dasharray:5 18;animation:flow 4s linear infinite}
+      .orbit{transform-origin:810px 155px;animation:rotate 30s linear infinite}
+      .node{animation:light 4s ease-in-out infinite}.late{animation-delay:-2s}
+      @keyframes type{0%,8%{width:0}50%,90%{width:550px}100%{width:550px}}
+      @keyframes blink{50%{opacity:.15}}
+      @keyframes flow{to{stroke-dashoffset:-92}}
+      @keyframes rotate{to{transform:rotate(360deg)}}
+      @keyframes light{0%,100%{opacity:.45}50%{opacity:1}}
+      @media(prefers-reduced-motion:reduce){.reveal,.cursor,.signal,.orbit,.node{animation:none}}
+    </style>
+  </defs>
+  <rect width="1000" height="360" rx="12" fill="#0d1718"/>
+  <rect width="1000" height="360" rx="12" fill="url(#grid)"/>
+  <path d="M0 1H1000" stroke="#ffb078" stroke-width="2"/>
+  <circle cx="43" cy="35" r="4" fill="#ffb078"/>
+  <circle cx="59" cy="35" r="4" fill="#7b9c93"/>
+  <circle cx="75" cy="35" r="4" fill="#385851"/>
+  <text class="mono" x="112" y="40" font-size="12" letter-spacing="1.5" fill="#a3bdb5">SS-SEVESH / BUILD LOG</text>
+  <text class="mono" x="950" y="40" text-anchor="end" font-size="11" fill="#a3bdb5">01 — INTRO</text>
+  <text x="40" y="113" font-size="19" fill="#a9c5bb">Hello, I'm</text>
+  <text x="36" y="183" font-size="74" font-weight="700" letter-spacing="-3" fill="#f3eee5">SEVESH S S<tspan fill="#ffb078">.</tspan></text>
+  <text x="40" y="229" font-size="25" fill="#c2d5cd">Building AI you can use.</text>
+  <rect x="28" y="270" width="580" height="48" rx="5" fill="#080f11" stroke="#25413b"/>
+  <g clip-path="url(#typing)"><text class="mono" x="40" y="301" font-size="18" fill="#a8dcc4">&gt; learn. experiment. build. repeat.</text></g>
+  <path class="cursor" d="M568 285v21" stroke="#ffb078" stroke-width="8"/>
+  <g fill="none" stroke="#a8dcc4">
+    <circle cx="810" cy="155" r="91" opacity=".12"/>
+    <circle class="orbit" cx="810" cy="155" r="72" stroke-dasharray="9 11" opacity=".3"/>
+    <path d="M740 105L810 155L884 112M810 155L854 227M810 155L736 215" opacity=".25"/>
+    <path class="signal" d="M740 105L810 155L884 112M810 155L854 227M810 155L736 215" opacity=".8"/>
+  </g>
+  <g stroke="#a8dcc4" fill="#10251f">
+    <circle class="node" cx="740" cy="105" r="11"/><circle class="node late" cx="884" cy="112" r="11"/>
+    <circle class="node" cx="854" cy="227" r="11"/><circle class="node late" cx="736" cy="215" r="11"/>
+    <rect x="786" y="131" width="48" height="48" rx="9" fill="#ffb078" stroke="#ffb078"/>
+  </g>
+  <text class="mono" x="810" y="162" text-anchor="middle" font-size="19" font-weight="bold" fill="#17201a">AI</text>
+  <text class="mono" x="810" y="302" text-anchor="middle" font-size="11" letter-spacing="2" fill="#a3bdb5">MODELS → REAL INTERFACES</text>
+</svg>

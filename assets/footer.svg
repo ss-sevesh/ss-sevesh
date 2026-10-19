@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 90" role="img" aria-labelledby="title">
+  <title id="title">Keep learning. Keep building.</title>
+  <style>
+    text{font-family:Consolas,'Courier New',monospace}
+    .trace{stroke-dasharray:25 650;animation:travel 9s linear infinite}
+    @keyframes travel{to{stroke-dashoffset:-1350}}
+    @media(prefers-reduced-motion:reduce){.trace{animation:none}}
+  </style>
+  <rect width="1000" height="90" rx="8" fill="#0d1718"/>
+  <path d="M24 45H238M762 45H976" stroke="#29423c"/>
+  <path class="trace" d="M24 45H238M762 45H976" fill="none" stroke="#ffb078" stroke-width="2"/>
+  <text x="500" y="51" text-anchor="middle" font-size="19" fill="#a8dcc4">keep learning. keep building.</text>
+</svg>

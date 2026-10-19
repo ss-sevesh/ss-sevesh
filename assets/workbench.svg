@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 200" role="img" aria-labelledby="title desc">
+  <title id="title">My AI workbench: voice, vision, knowledge</title>
+  <desc id="desc">Animated audio bars, a moving vision scan, and signals between knowledge nodes. Decorative illustrations, not live telemetry.</desc>
+  <style>
+    text{font-family:Consolas,'Courier New',monospace}
+    .bar{transform-box:fill-box;transform-origin:center;animation:voice 1.5s ease-in-out infinite}
+    .b2{animation-delay:-.5s}.b3{animation-delay:-1s}
+    .scan{animation:scan 4s ease-in-out infinite}
+    .link{stroke-dasharray:4 14;animation:flow 3s linear infinite}
+    @keyframes voice{0%,100%{transform:scaleY(.4)}50%{transform:scaleY(1)}}
+    @keyframes scan{0%,100%{transform:translateY(-19px)}50%{transform:translateY(19px)}}
+    @keyframes flow{to{stroke-dashoffset:-72}}
+    @media(prefers-reduced-motion:reduce){.bar,.scan,.link{animation:none}}
+  </style>
+  <rect width="1000" height="200" rx="10" fill="#0d1718"/>
+  <g stroke="#29423c"><path d="M333 24V176M666 24V176"/></g>
+  <g fill="#a8dcc4" transform="translate(152 61)">
+    <rect class="bar" x="-38" y="-10" width="9" height="20" rx="4"/>
+    <rect class="bar b2" x="-20" y="-21" width="9" height="42" rx="4"/>
+    <rect class="bar b3" x="-2" y="-29" width="9" height="58" rx="4"/>
+    <rect class="bar" x="16" y="-21" width="9" height="42" rx="4"/>
+    <rect class="bar b2" x="34" y="-10" width="9" height="20" rx="4"/>
+  </g>
+  <g fill="none" stroke="#ffb078" stroke-width="2">
+    <path d="M473 43V32h15M512 32h15v11M473 79v11h15M512 90h15V79"/>
+    <circle cx="500" cy="61" r="15" opacity=".5"/>
+    <path class="scan" d="M463 61h74"/>
+  </g>
+  <g fill="none" stroke="#a8dcc4">
+    <path d="M810 43L846 34L865 72L826 87Z M810 43L865 72M846 34L826 87" opacity=".25"/>
+    <path class="link" d="M810 43L846 34L865 72L826 87Z M810 43L865 72M846 34L826 87"/>
+    <g fill="#a8dcc4"><circle cx="810" cy="43" r="5"/><circle cx="846" cy="34" r="5"/><circle cx="865" cy="72" r="5"/><circle cx="826" cy="87" r="5"/></g>
+  </g>
+  <g text-anchor="middle" font-size="21" font-weight="bold" fill="#f3eee5"><text x="166" y="130">VOICE</text><text x="500" y="130">VISION</text><text x="833" y="130">KNOWLEDGE</text></g>
+  <g text-anchor="middle" font-size="13" fill="#a3bdb5"><text x="166" y="159">listen / reason / speak</text><text x="500" y="159">observe / track / explain</text><text x="833" y="159">retrieve / ground / connect</text></g>
+</svg>
